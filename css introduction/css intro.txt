@@ -1,0 +1,63 @@
+CSS Introduction:
+   css stands for cascading style sheets.cascading refers to the styles that are applied to eleents in a web page.
+   css is used to style/design the layout or apperance of webpages.
+
+css can be used in html in 3 ways.
+1.Inline styling.
+2.Internal styling.
+3.External styling.
+
+1.Inline styling: it is used to apply styles to a specific element using 'style' as attribute.
+ eg: <element style="property:value;....">content</element>
+
+
+2.Internal styling: it is used to apply styles to a specific element or multiple elements using selectors 
+and style as an element.
+eg: 
+    <style>
+      selectors
+      {
+          property:value;....
+      }
+      </style>
+
+     order: inline > internal
+
+3. External styling: it is used to apply styles to single/multiple elements in a seperate file with .css extension
+and attach it to the HTML using 'link' tag.
+   <link rel="stylesheet" href="path to css" />
+
+CSS styles of internal and external can override each other based on which comes last.
+
+!importantis the highest preferance for properties.
+h1{
+    color:red !important;
+}
+order of execution: !important > inline > internal/external.
+
+Basic selectors: to apply styles to multiple elements we need to select the elements for that we use selectors.
+Most common selectors are :
+
+1.Tag name selector:it is used to select all elements of specific tag name.
+    tagname{
+        properties:values;
+    }
+
+2. class name: class is a attribute to elements which is used to select multiple elements. one element may contain 
+multiple class names and multiple eleents may contain same class name.
+    .classname{
+        properties:values;
+    }   
+
+3.id: id is used to identify an element uniqely. no 2 elements have same id and no element will contain more than 
+one id.
+  #idname{
+    properties:values;
+  }
+  id>class>tagname
+
+ 4.universal selector:if you want to apply all elements in a webpage, you can use universal selector (*).
+    *{
+        text-align:center;
+    } 
+
