@@ -29,7 +29,7 @@ and attach it to the HTML using 'link' tag.
 
 CSS styles of internal and external can override each other based on which comes last.
 
-!importantis the highest preferance for properties.
+!important is the highest preferance for properties.
 h1{
     color:red !important;
 }

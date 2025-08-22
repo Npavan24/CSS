@@ -1,0 +1,65 @@
+colors: colors decide the brand and user interface of the web page.It is recommended to use colors according to
+the target audience.
+websites: coolors, realtimecolors.
+colors can be mentioned in css in various ways.they are:
+
+1. hexcode: every color will have an hexa decimal ode of 6 digits followed by #.
+
+2. RGB(red,green,blue): any color can be represented as a combination of colors red,green and blue from 0 to 255 
+values.
+we can even assign alpha 0.0 to 1.0 showing transparancy from lightness to darkness.
+
+3.Name: vscode provides multiple colors with name.
+
+Fonts: every font family in world belongs any one of these 5 types. They are
+1. serif: these fonts have stroke at corners eg:times new roman
+2.sans-serif:these fonts not have stroke at corners eg:arial,Callibri
+3.mono-space:these fonts have equal height of letters like a typewriter
+4.cursive:these fonts are styled and curved.
+5.Fantasy: these fonts are used for special effects.
+
+How to get fonts in webpages
+   Font-Family: it is used to apply fonts to specific element.
+
+   font-size: it is used to change the size of the font.
+
+   font-weight: it is used to change the thickness of the font(100-900/bold/bolder)
+
+   font-style: it is used to change the style of the font(normal/italic).
+
+   we can even import fonts from google using below process:
+   search"google-fonts" 
+   select a font
+   click "get font"
+   click "get embed code" 
+   select "import" and copy the code to css.
+
+   Units: units are used to measure the size of the elements. most used units are: 
+   px(pixels): it is the smallest unit of screen
+   %(percentage): it is used x% of parent's size
+   vh/vw: it is the x% of viewport height or viewport width (viewport = screen of the system)
+
+   Background: we can assign a background color or background image to the webpage using following properties:
+
+    background-color: it is used to assign the color for background.
+    background image: it is used to assign the background images using url or gradients
+    background-repeat: repeat/repeat-x/repeat-y
+    background-position: left/right/center/top/bottom
+    background-size: decides the size of background
+                      auto/cover/contain 
+    background-attachement: auto/scroll/fixed
+
+    Linear gradients: gradients are the transformation of one color to another.
+    Linear gradient assigns colors in straight way. 
+       background_image:Linear-gradient(position,color1,color2....)
+       position can be to left/to right/to bottom/to top/xdeg
+   we can even assign the gradient or image to text.
+   color:transparant;
+   background-image:Linear-gradient(color1,color2);
+   background-clip:text;
+
+   Radial-gradient: it is used to assign gradients in circular way.
+       background-image: Radial-gradient(color1,color2);     
+           
+
+
