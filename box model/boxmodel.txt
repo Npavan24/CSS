@@ -13,7 +13,7 @@ Box Model: browsers treat every element as a box. A box contains
      50% of border-radius make actual circle for square shape.
      we can also assign each corner radius seperately.
 
-3. padding: it ia the space between the border and actual content of element(insid the element).
+3. padding: it ia the space between the border and actual content of element(inside the element).
       padding:size;
       we can also assign padding as padding-left,padding-right.padding-top,padding-bottom.
       normally, padding makes each box increase its height or width because by default all are content-boxes.so 

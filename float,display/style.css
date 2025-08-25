@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    height: 100px;
+    float: right;
+}
+p{
+    clear: right;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-size: 48px;
+    color: aqua;
+    display: inline-block;
+    text-align: center;
+}
+.div2{
+    visibility: hidden;
+}

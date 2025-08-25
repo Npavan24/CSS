@@ -1,0 +1,21 @@
+Flex box: it is used to arrange the elements in single direction either row or column.
+
+parent properties: flexbox allows its parent to have below properties like
+display: flex --- it is used to arrange child items in single direction(default row)
+flex-direction --- it is used to arrange child items in specific direction(row/column/row reverse/column reverse)
+gap --- it is used to provide gap between the items.
+Axis in which elements are arranged(opposite to main axis) is called cross axis.
+justify-content -- it is used to move the elements along the main axis
+(left/right/center/start/end/space-between/space-around/space-evenly)
+align items -- it is used to move the elements along the cross axis(left/right/center/start/end)
+align-content -- it is used to move the lines done by flex wrap.
+
+flex box froggy/flex box labs website to practise flex
+
+child properties: 
+   order: it is used to arrange child item individually at any place by default order is 0 
+   and element are arranged based on order's increasing/ ascending order.
+   align self: it is used to adjust element individually across cross axis.
+   flex shrink: it is used to shrink more than the other elements.
+   flex-grow: it is used to grow more than the other elements.
+   flex basis: it is used to make an element same without grow or shrink.
