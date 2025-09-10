@@ -29,7 +29,7 @@ nav>ul>li>a{
     font-size: 50px;
     padding-top: 80px;
 }
-p{
+#food{
     text-align: center;
     color: white;
     font-size: 25px;
@@ -45,5 +45,128 @@ h3>a{
     padding-top: 30px;
     display: flex;
     justify-content: center;
-   
+    gap: 24px;
 }
+.child{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.collection{
+    margin-left:280px;
+    margin-top: 50px;
+    margin-right: 280px;
+}
+.col{
+    font-size: 30px;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+}
+.places{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.p1{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://c.stocksy.com/a/w4A800/z9/1945370.jpg");
+    color: aliceblue;
+}
+.p2{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://c.stocksy.com/a/w4A800/z9/1945370.jpg");
+    color: aliceblue;
+}
+.p3{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://c.stocksy.com/a/w4A800/z9/1945370.jpg");
+    color: aliceblue;
+}
+.p4{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://c.stocksy.com/a/w4A800/z9/1945370.jpg");
+    color: aliceblue;
+}
+.local{
+    font-size: 20px;
+    margin-left:280px;
+    margin-top: 50px;
+    margin-right: 280px;
+}
+.locations{
+    margin-left:280px;
+    margin-top: 50px;
+    margin-right: 280px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    justify-content: space-between;
+}
+.l1{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l2{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l3{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l4{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l5{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l6{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l7{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l8{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.l9{
+    height: 60px;
+    width: 270px;
+    border: 1px solid black;
+}
+.total{
+    margin-left:280px;
+    margin-top: 50px;
+    margin-right: 280px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    text-decoration: none;
+}
+.dw{
+    margin-top: 24px;
+}
+
+
+
